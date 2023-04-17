@@ -46,13 +46,6 @@
     background: #47089938;
 }
 
-/* Fake image, just for this example */
-/* .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-} */
-
 /* Footer */
 .footer {
     padding: 20px;
@@ -66,36 +59,28 @@
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-    .row {   
+    .main {   
         flex-direction: column;
-    }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-    .navbar a {
-        float: none;
-        width:100%;
     }
 }
 
 /* стили для экранов с шириной от 768px и выше */
 @media screen and (min-width: 768px) {
-  .row {
+  .main {
     font-size: 16px;
   }
 }
 
 /* стили для экранов с шириной от 480px и выше, но менее 768px */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  .row {
+  .main {
     font-size: 14px;
   }
 }
 
 /* стили для экранов с шириной менее 480px */
 @media screen and (max-width: 479px) {
-  .row {
+  .main {
     font-size: 12px;
   }
 }
@@ -113,7 +98,7 @@
   <div class="main">
       <h1 class="ff">Массаж в 4 руки</h1>
       <h3 class="ff">Основное преимущество массажа в 4 руки – высокий уровень интенсивности полученной телом нагрузки в короткие сроки. Во время сеанса массажисты успевают проработать каждый участок вашего тела и уделить особое внимание самым проблемным, на ваш взгляд, местам.</h3>
-      <div class="fakeimg" style="height:500px;" align="center" ><img src="35350_16013159045889.jpg"></div>
+      <div class="row" style="height:500px;" align="center" ><img src="35350_16013159045889.jpg"></div>
       <br>
       <h2 class="ff">Услуги массажа</h2>
       <h3 class="ff">Расслабление и обновление вашего тела</h3>
