@@ -38,18 +38,6 @@ img {
     background-image: url(relaks-massazh-v-4-ruki.jpg);
     background-size: cover;
     color: white;
-    position: relative; /* необходимо для позиционирования псевдоэлемента */
-}
-
-.header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* полупрозрачный черный цвет */
-    z-index: -1; /* чтобы псевдоэлемент был под содержимым .header */
 }
 
 
